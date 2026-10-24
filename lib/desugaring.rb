@@ -40,7 +40,7 @@ module DesugaringExercises
   # Copy the contents of the previous method here and remove this sugar.
   #
 
-  def  desugared_poetry(recipients, event, message)
+  def desugared_named_arg(recipients, event, message)
     mail(message, 
     {to: recipients.map(&:email),
     subject: "You’re invited to #{event.title} on #{event.date}"})
