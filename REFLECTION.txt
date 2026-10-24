@@ -1,0 +1,6 @@
+After going over Paul's solutions, I noticed that the desugaring stuff was all pretty similar for the most part.
+I think going forward I really want to focus on the format of my code because it can get a little overwhelming,
+especially when attempting to debug. One of the differences I spotted in the second delooping function was that i did .uniq last. 
+I think my runtime could have benefited a bit if I had filtered out my list faster. Lastly, I enjoyed 
+learning a bit of html. If there are some differences in my year category from yours, it might be because I looked at when it began being 
+developed. This homework really helped develop some more ruby understanding overall, as well as some cool html and webpage rendering concepts!
