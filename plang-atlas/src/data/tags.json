@@ -10,5 +10,14 @@
   "oop": {
     "name": "Object-oriented",
     "about": "https://en.wikipedia.org/wiki/Object-oriented_programming"
+  },
+  "vis_type": {
+    "name": "Visual programming",
+    "about": "https://en.wikipedia.org/wiki/Visual_programming_language"
+  },
+  "ob": {
+    "name": "Object-based",
+    "about": "https://en.wikipedia.org/wiki/Object-based_language"
   }
+  
 }

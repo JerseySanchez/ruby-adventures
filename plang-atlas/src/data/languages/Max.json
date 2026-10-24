@@ -1,0 +1,28 @@
+{
+    "name": "Max/Msp",
+    "tags": ["dyn_type", "ob", "vis_type"],
+    "links": [
+      {
+        "title": "Official home page",
+        "url": "https://cycling74.com/products/max"
+      }
+    ],
+    "history":[
+        {
+        "name": "Popularity Rank:",
+        "about": "N/A (>100)"
+        },
+        {
+          "name": "Year Developed:",
+          "about": "1985"
+        },
+        {
+          "name": "Developed by:",
+          "about": "Miller Puckette"
+        },
+        {
+          "name": "Where:",
+          "about": "Institut de Recherche et Coordination Acoustique/Musique (Paris, France)"
+        }
+      ]
+}

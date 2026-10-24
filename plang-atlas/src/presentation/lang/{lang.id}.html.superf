@@ -19,6 +19,16 @@ end
     <main>
       <h1><%= lang.name %></h1>
 
+      <h2>About</h2>
+      <% lang.history.each do |facts| %>
+        <li>
+          <%= facts.name %>
+          <%= facts.about %>
+        </li>
+      <% end %>
+      </ul>
+      
+  
       <% if lang.tags? %>
         <h2>Tags</h2>
         <ul>
