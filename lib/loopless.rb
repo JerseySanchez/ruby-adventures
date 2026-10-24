@@ -5,8 +5,8 @@ module GoingLoopless
   # Returns all the people who have taken on the role with the given name.
   def find_all_in_role(role_name, people)
     people.select { |person| person.roles.map { |role| role.name }.include?(role_name) }
-    end
   end
+
 
   # List the titles and years of all the movies in which the given person played a role, in
   # chronological order.
@@ -22,4 +22,4 @@ module GoingLoopless
   def build_credits(movie, role_order)
    movie.roles.select {|role| role_order.include?(role.name)}.sort_by { |role| role_order.find_index(role.name)}.map {|role| "#{role.person.name} (#{role.name})"}
   end
-  
+end
